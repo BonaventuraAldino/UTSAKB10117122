@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@+id/menuProfile">
+
+    <fragment
+        android:id="@+id/menuProfile"
+        android:name="sch.akb.tugasuts_10117122.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/menuContact"
+        android:name="sch.akb.tugasuts_10117122.ContactFragment"
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/menuFriend"
+        android:name="sch.akb.tugasuts_10117122.FriendFragment"
+        android:label="Friend"
+        tools:layout="@layout/fragment_friend" />
+</navigation>
